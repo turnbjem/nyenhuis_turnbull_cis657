@@ -1,15 +1,15 @@
 //
-//  HW3_rnTests.swift
-//  HW3.rnTests
+//  HW3_REALTests.swift
+//  HW3 REALTests
 //
-//  Created by Reuben B. Nyenhuis on 5/14/19.
+//  Created by Reuben B. Nyenhuis on 5/16/19.
 //  Copyright © 2019 Reuben B. Nyenhuis. All rights reserved.
 //
 
 import XCTest
-@testable import HW3_rn
+@testable import HW3_REAL
 
-class HW3_rnTests: XCTestCase {
+class HW3_REALTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
