@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, DistanceSelectionViewControllerDelegate{
 
     @IBOutlet weak var LatP1: UITextField!
     
@@ -46,6 +46,18 @@ class ViewController: UIViewController {
         
     }
     
+    func indicateSelection(distance: String) {
+        DistanceTextField.text = distance
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ViewSettingsSegue" {
+            if segue.destination.children[0] is SettingsViewController {
+//                destVC.selection? = self.DistanceTextField.text
+            }
+        }
+    }
+    
     @IBAction func CalcTapped(_ sender: UIButton) {
         if self.checkInput(){
             DistanceTextField.text = LatP1.text
@@ -66,7 +78,9 @@ class ViewController: UIViewController {
         DistanceTextField.text = ""
     }
     
-    
+    @IBAction func Save(segue : UIStoryboardSegue){
+        
+    }
 }
 
 extension ViewController : UITextFieldDelegate{
