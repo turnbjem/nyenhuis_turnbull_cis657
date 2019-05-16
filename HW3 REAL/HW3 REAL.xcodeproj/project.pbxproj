@@ -14,6 +14,8 @@
 		4A01023A228DC30A005186E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A010238228DC30A005186E5 /* LaunchScreen.storyboard */; };
 		4A010245228DC30A005186E5 /* HW3_REALTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A010244228DC30A005186E5 /* HW3_REALTests.swift */; };
 		4A010250228DC30A005186E5 /* HW3_REALUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A01024F228DC30A005186E5 /* HW3_REALUITests.swift */; };
+		4A01025E228DC78C005186E5 /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A01025D228DC78C005186E5 /* DecimalMinusTextField.swift */; };
+		4A010260228DC7B4005186E5 /* CLLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A01025F228DC7B4005186E5 /* CLLocationExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4A01024B228DC30A005186E5 /* HW3 REALUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW3 REALUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A01024F228DC30A005186E5 /* HW3_REALUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_REALUITests.swift; sourceTree = "<group>"; };
 		4A010251228DC30A005186E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A01025D228DC78C005186E5 /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
+		4A01025F228DC7B4005186E5 /* CLLocationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				4A01022F228DC309005186E5 /* AppDelegate.swift */,
+				4A01025D228DC78C005186E5 /* DecimalMinusTextField.swift */,
+				4A01025F228DC7B4005186E5 /* CLLocationExtensions.swift */,
 				4A010231228DC309005186E5 /* ViewController.swift */,
 				4A010233228DC309005186E5 /* Main.storyboard */,
 				4A010236228DC30A005186E5 /* Assets.xcassets */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A01025E228DC78C005186E5 /* DecimalMinusTextField.swift in Sources */,
+				4A010260228DC7B4005186E5 /* CLLocationExtensions.swift in Sources */,
 				4A010232228DC309005186E5 /* ViewController.swift in Sources */,
 				4A010230228DC309005186E5 /* AppDelegate.swift in Sources */,
 			);
