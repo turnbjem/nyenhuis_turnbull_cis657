@@ -15,7 +15,11 @@
 		0152DA27228CFD46008EE243 /* HW3_aTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152DA26228CFD46008EE243 /* HW3_aTests.swift */; };
 		0152DA32228CFD46008EE243 /* HW3_aUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152DA31228CFD46008EE243 /* HW3_aUITests.swift */; };
 		0152DA40228CFE46008EE243 /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152DA3F228CFE46008EE243 /* DecimalMinusTextField.swift */; };
+<<<<<<< HEAD
 		0152DA42228E1679008EE243 /* SettingsViewConstrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152DA41228E1679008EE243 /* SettingsViewConstrollerViewController.swift */; };
+=======
+		4A7DBB55228DFD5F00342746 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7DBB54228DFD5F00342746 /* SettingsViewController.swift */; };
+>>>>>>> 5e9dc369869e1ee76d4f5c916288cd861fca2a63
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +54,11 @@
 		0152DA31228CFD46008EE243 /* HW3_aUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_aUITests.swift; sourceTree = "<group>"; };
 		0152DA33228CFD46008EE243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0152DA3F228CFE46008EE243 /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalMinusTextField.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		0152DA41228E1679008EE243 /* SettingsViewConstrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewConstrollerViewController.swift; sourceTree = "<group>"; };
+=======
+		4A7DBB54228DFD5F00342746 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+>>>>>>> 5e9dc369869e1ee76d4f5c916288cd861fca2a63
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +113,11 @@
 				0152DA13228CFD44008EE243 /* ViewController.swift */,
 				0152DA3F228CFE46008EE243 /* DecimalMinusTextField.swift */,
 				0152DA15228CFD44008EE243 /* Main.storyboard */,
+<<<<<<< HEAD
 				0152DA41228E1679008EE243 /* SettingsViewConstrollerViewController.swift */,
+=======
+				4A7DBB54228DFD5F00342746 /* SettingsViewController.swift */,
+>>>>>>> 5e9dc369869e1ee76d4f5c916288cd861fca2a63
 				0152DA18228CFD46008EE243 /* Assets.xcassets */,
 				0152DA1A228CFD46008EE243 /* LaunchScreen.storyboard */,
 				0152DA1D228CFD46008EE243 /* Info.plist */,
@@ -266,6 +278,7 @@
 				0152DA40228CFE46008EE243 /* DecimalMinusTextField.swift in Sources */,
 				0152DA14228CFD44008EE243 /* ViewController.swift in Sources */,
 				0152DA12228CFD44008EE243 /* AppDelegate.swift in Sources */,
+				4A7DBB55228DFD5F00342746 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
